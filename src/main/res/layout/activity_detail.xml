@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/name_detail"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:text="狗狗之家"
+
+        android:background="#FF3030"
+
+        android:textSize="60dp"
+        android:gravity="center" />
+
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#0F000000"
+        android:src="@drawable/ic_launcher_foreground">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/age_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Info Found"
+        android:textSize="20dp"
+        android:padding="15dp"
+
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/slogan_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Info Found"
+        android:textSize="50dp"
+
+        >
+
+    </TextView>
+
+</LinearLayout>
